@@ -1,0 +1,15 @@
+[package]
+name = "csi_digital"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pillow-rs = "12.2.1"
+image = "0.25"
+opencv = { workspace = true }
+glam = { workspace = true }
+glow = { workspace = true }
+glutin = { workspace = true }
+glutin-winit = { workspace = true }
+raw-window-handle = { workspace = true }
+winit = { workspace = true }

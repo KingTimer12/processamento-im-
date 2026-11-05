@@ -1,0 +1,12 @@
+[package]
+name = "opengl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+glam.workspace = true
+glow.workspace = true
+glutin.workspace = true
+glutin-winit.workspace = true
+raw-window-handle.workspace = true
+winit.workspace = true
